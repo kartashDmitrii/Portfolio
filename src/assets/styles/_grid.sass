@@ -1,0 +1,43 @@
+html
+  box-sizing: border-box
+  -ms-overflow-style: scrollbar
+*,
+*::before,
+*::after
+  box-sizing: inherit
+.container
+  width: 100%
+  padding-right: 15px
+  padding-left: 15px
+  margin-right: auto
+  margin-left: auto
+  position: relative
+  @media (min-width: 576px)
+    max-width: 540px
+  @media (min-width: 768px)
+    max-width: 724px
+  @media (min-width: 992px)
+    max-width: 970px
+  @media (min-width: 1024px)
+    max-width: 960px
+  @media (min-width: 1200px)
+    max-width: 1025px
+  @media (min-width: 1279px)
+    max-width: 1201px
+  @media (min-width: 1479px)
+    max-width: 1280px
+  @media (min-width: 1535px)
+    max-width: 1480px
+  @media (min-width: 1919px)
+    max-width: 1536px
+
+.container-fluid
+  width: 100%
+  padding-right: 15px
+  padding-left: 15px
+  margin-right: auto
+  margin-left: auto
+  position: relative
+  .container
+    padding-right: 0
+    padding-left: 0
