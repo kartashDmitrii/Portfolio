@@ -130,8 +130,8 @@ export default new Vuex.Store({
           Rus: '2018 - 2019'
         },
         desc: {
-          Eng: 'I taught basic knowledge of HTML, CSS and JS to children',
-          Rus: 'Преподавал детям основы HTML, CSS и JS'
+          Eng: 'I taught basic knowledge of HTML, CSS and JS',
+          Rus: 'Преподавал школьникам на компьютерных курсах HTML, CSS и JS'
         }
       },
       {
