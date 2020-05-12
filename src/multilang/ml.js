@@ -14,7 +14,7 @@ export default new MLCreate({
                 phone: 'Phone',
                 email: 'Email',
                 address: 'Address',
-                addressLocation: 'Kiev, st. Makeevska 7, 149',
+                addressLocation: 'Kiev, Obolonsky District',
                 social: 'Social',
                 contactMe: 'Contact Me',
                 downloadCV: 'Download CV',
@@ -45,11 +45,13 @@ export default new MLCreate({
         new MLanguage('Rus').create({
             aboutMe: {
                 name: 'Я Дмитрий Карташ',
-                about: 'Я приветствую Вас на своей персональной странице. Я занимаюсь созданием и поддержкой сайтов различной сложности, от сайтов визиток, до сложных CRM систем. Буду пад с Вами сотрудничать!',
+                about: `Я приветствую Вас на своей персональной странице. Я занимаюсь созданием и поддержкой сайтов различной сложности,
+                 от сайтов визиток, до сложных CRM систем. Часть моих работ Вы можете посмотреть в портфолио.Если Вы заинтересованы в совместной 
+                 работе - давайте это обсудим.!`,
                 phone: 'Телефон',
                 email: 'Почта',
                 address: 'Адрес',
-                addressLocation: 'Киев, ул. Макеевская 7, кв.149',
+                addressLocation: 'Киев, Оболонский район',
                 social: 'Соц. Сети',
                 contactMe: 'Связаться Со Мной',
                 downloadCV: 'Скачать CV',
